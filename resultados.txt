@@ -1,0 +1,27 @@
+TESTS                                            ARRAYLIST     LINKEDLIST   MAS RAPIDO   
+TEST  1 - Insertar elemento al final             0,001158      0,001280     ARRAYLIST
+TEST  2 - Insertar elemento al inicial           0,002213      0,003972     ARRAYLIST
+TEST  3 - Insertar elemento en el centro         0,016444      0,005773     LINKELIST
+TEST  4 - Borrar elemento final                  0,001392      0,002877     ARRAYLIST
+TEST  5 - Borrar elemento inicial                0,002542      0,001734     LINKELIST
+TEST  6 - Borrar elemento central                0,001871      0,005606     ARRAYLIST
+TEST  7 - Borrar valor de elemento final         0,003361      0,005912     ARRAYLIST
+TEST  8 - Borrar valor de elemento inicial       0,003489      0,003015     LINKELIST
+TEST  9 - Borrar valor de elemento central       0,064328      0,013995     LINKELIST
+TEST 10 - Vaciar lista                           0,015853      0,031618     ARRAYLIST
+TEST 11 - Buscar si existe elemento con funcion  0,032227      0,028571     LINKELIST
+TEST 12 - Buscar si existe elemento sin funcion  0,109181      1,611403     ARRAYLIST
+TEST 13 - Busqueda binaria de elemento           0,003185      0,010604     ARRAYLIST
+
+
+Método Ordenación         RANDOM m/s    ORDENADO m/s     INVERSO m/s    REPETIDO m/s   Fastest Array   TEST DE ORDEN   
+BUBBLESORT                  531,1913       1079,3156          0,0261          0,0258      A.REPETIDO      ORDEN OK
+SELECTIONSORT                 9,6117          8,1660          7,5899          8,1934      A.INVERSO       ORDEN OK
+INSERTIONSORT               245,1423        534,8669          0,8772          0,8793      A.INVERSO       ORDEN OK
+QUICKSORT                     5,1885          5,9439          8,1396          4,6898      A.REPETIDO      ORDEN OK
+MERGESORT                     2,0097          1,0507          1,0475          1,0468      A.REPETIDO      ORDEN OK
+Fastest x Ordenacion       MERGESORT       MERGESORT       MERGESORT       MERGESORT 
+
+BUSQUEDAS:
+BUSQUEDA BINARIA          0,00000000       0,01426299       0,00000000       0,00000000       Solo sobre A.Ordenados --> BUSQUEDA SECUENCIAL más rápida       
+BUSQUEDA SECUENCIAL       0,30436366       0,00615101       0,05011545       0,00619420       A.ORDENADO       
